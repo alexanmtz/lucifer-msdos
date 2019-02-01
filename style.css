@@ -1,0 +1,25 @@
+/*
+body {
+    background-color: rgb(65, 88, 30);
+    color: white;
+}
+body a, body p {
+    color: white;
+}
+*/
+
+.margin-top-default {
+    margin-top: 20px;
+}
+
+.margin-top-medium {
+    margin-top: 40px;
+}
+
+.margin-top-big {
+    margin-top: 80px;
+}
+
+.biggest-font-size {
+    font-size: 128px;
+}
