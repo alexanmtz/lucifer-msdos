@@ -13,7 +13,7 @@ source:         "."
 destination:    ./_gh_pages
 host:           0.0.0.0
 port:           9001
-baseurl:        ""
+baseurl:        "https://alexanmtz.github.io/lucifer-msdos/"
 url:            "https://alexanmtz.github.io/lucifer-msdos/"
 encoding:       UTF-8
 exclude:
