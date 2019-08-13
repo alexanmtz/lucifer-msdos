@@ -21,12 +21,28 @@ layout: home
           <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
         </form>
         <div class="d-flex flex-column flex-md-row lead mb-3 margin-top-big">
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-bd-primary mb-3 mb-md-0 mr-md-3">Sobre Lucifer</a>
+          <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-bd-primary mb-3 mb-md-0 mr-md-3">Sobre Lucifer</a>
         </div>
         <p class="text-muted mb-0">
           Currently v{{ site.current_version }}
         </p>
       </div>
+      <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Sobre Lucifer</h4>
+            </div>
+            <div class="modal-body">
+              <p>Lucifer é um algoritmo de autor desconhecido, na época do MS-DOS e seu algoritmo mesmo antigo permite ser possível responder todas as perguntas.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">fechar</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
     </div>
   </div>
 </main>
