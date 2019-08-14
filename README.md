@@ -58,4 +58,4 @@ This is how the algorithm works step by step:
 * Voila, now you're a Lucifer servant
 
 ## Code of conduct
-If the people that watch a session seing the answer start to be scared, no problem to tell that is just a tricky algorithm. There's no religigion involved and the name is just a joke.
+If the people that watch a session becomes scary by the answers, no problem to tell that is just a tricky algorithm. There's no religion involved and the name is just a joke.
