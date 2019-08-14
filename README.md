@@ -13,7 +13,15 @@ Lucifer become a trending in the whole country and journalists start to investig
 Today, there's no resources about it anymore and this was a tricky and interesting algorithm that I reimplemented. So Lucifer reborn to trick your friends.
 
 ## Why is so interesting
-The Lucifer trick pass the touring test in one of their variations, this because, you can distinguish him from a machine when there's someone that Lucifer will answer to intermediate. So you can see by yourself in a front of a computer an entity that can answer anything as human, even if the response is not right.
+The Lucifer trick pass the touring test in one of their variations, this because, you can't distinguish him from a machine when there's someone that Lucifer will answer to intermediate. So you can see by yourself in a front of a computer an entity that can answer anything as human, even if the response is not right.
+
+This is how would be variation test:
+
+* Given an user A, the responsible to make questions, who Lucifer will answer any question given
+* The watcher B, the one who will see the questions and the answer on the screen, but when he try to use the software, Lucifer do not answer to their questions, instead he act agressively
+* The software C, the Lucifer, the one who provide the answers
+
+The watcher B will make a question to A, that will transcribe to the software C, and B will have their answer and he cannot distinguish if the Lucifer is a human or a machine.
 
 ## How it works
 Are you sure that you want to know the Lucifer secret? You will start to serve him and you will be able to trick your friends.
