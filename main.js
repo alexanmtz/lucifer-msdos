@@ -2,6 +2,17 @@ _386 = { onePass: true, speedFactor: 1.25 };
 
 var originalAnswer = ''
 
+function getUserLang() {
+    var userLang = localStorage.getItem('userLang')
+    var path = window.location.pathname
+    if(path === '/pt-BR/' || path === '/pt-BR') { localStorage.setItem('userLang', 'pt-BR') }
+    if((path === '/' || path === '') && userLang) { localStorage.setItem('userLang', 'en-US') }
+    if(userLang) { return userLang } 
+    var userBrowserLang = navigator.language || navigator.userLanguage || 'en-US';
+    localStorage.setItem('userLang', userBrowserLang)
+    return userLang
+}
+
 function createContainer(extra) {
     $('.answer-box').empty();
     for( var i = 0; i < 17; i++) {
@@ -26,14 +37,21 @@ function getAnswer() {
 }
 
 function printAnswer() {
-    var answers = [
+    var answers = []
+    answers['pt-BR'] = [
         'Tire suas mãos sujas deste teclado!',
         'Saia daqui e deixe as perguntas para quem serve a mim!',
         'Você não tem capacidade de fazer uma pergunta direito!',
         'Sai deste teclado otário!'
     ]
+    answers['en-US'] = [
+        'Get out of my keyboard piece of shit!',
+        'Get out and leave the questions for a servant to me!',
+        "You can't do a question right!",
+        'Get out of this keyboard asshole'
+    ]
 
-    var item = answers[Math.floor(Math.random()*answers.length)];
+    var item = answers[getUserLang()][Math.floor(Math.random()*answers[getUserLang()].length)];
 
     $('.answer-line').empty();
     $('<div class="answer-line" />').html(originalAnswer.length ? originalAnswer.substring(1) : item).appendTo('.answer-box');
@@ -46,10 +64,14 @@ function startMask(e) {
 }
 
 function maskOn() {
-    var questions = [
+    var questions = []
+    questions['pt-BR'] = [
         'Querido computador, razão da minha vida, venho por meio deste lhe perguntar sobre questões deste universo que sei que na sua magnitude você terá a resposta'
     ];
-    var item = questions[Math.floor(Math.random()*questions.length)];
+    questions['en-US'] = [
+        'Dear computer, reason of my life, I want to gentle ask you about some questions surrounding the universe and I know of the power of your wise answers'
+    ];
+    var item = questions[getUserLang()][Math.floor(Math.random()*questions[getUserLang()].length)];
 
     $('#inputQuestion').on('keydown',function(event) {
         originalAnswer += String.fromCharCode(event.keyCode)
@@ -67,6 +89,7 @@ function maskOn() {
 }
 
 $(function() {
+    getUserLang()
     $('#inputQuestion').on('keydown',function(e) {
         if(e.keyCode === 186) {
             startMask(e);
@@ -79,5 +102,7 @@ $(function() {
         //audio.play()
         return false;
     });
+
+    $('.language-bar li[lang="' + getUserLang() + '"]').addClass('active')
 
 });

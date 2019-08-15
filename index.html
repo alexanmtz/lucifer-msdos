@@ -1,27 +1,38 @@
 ---
 layout: home
+permalink: /
+permalink_pt-BR: /
 ---
 
 <main class="bd-masthead" id="content" role="main">
   <div class="container margin-top-big">
+    <div class="row">
+      <div class="col-md-12">
+          <ul class="language-bar nav nav-pills pull-right">
+            <li role="presentation" lang="en-US"><a href="/">English</a></li>
+            <li role="presentation" lang="pt-BR"><a href="{{ site.baseurl_root }}/pt-BR{{ page.url}}">Português</a></li>
+          </ul>
+        </div>
+    </div>
     <div class="row align-items-center">
       <div class="col-md-12 order-md-1 text-center pr-md-5">
         <h1 class="mb-3 bd-text-purple-bright biggest-font-size">LUCIFER</h1>
         <p class="lead mb-3 margin-top-medium">
-          FAÇA SUA PERGUNTA E TECLE ENTER
+          {% t heading %}
         </p>
         <form id="question-form" class="margin-top-medium">
           <div class="form-group">
-            <label for="exampleInputEmail1" class="margin-bottom-default">Pergunta:</label>
-            <input type="text" class="form-control text-center margin-bottom-default" id="inputQuestion" autocomplete="false" placeholder="Faça sua pergunta">
-            <small id="emailHelp" class="form-text text-muted">Você precisa tratá-lo bem, caso contrário ele não irá lhe responder (Ex. Meu querido computador)</small>
+            <label for="exampleInputEmail1" class="margin-bottom-default">{% t question %}</label>
+            <input type="text" class="form-control text-center margin-bottom-default" id="inputQuestion" autocomplete="false" placeholder="{% t placeholder %}">
+            <small id="emailHelp" class="form-text text-muted">{% t tip %}</small>
           </div>
-          <h4>Resposta:</h4>
+          <h4>{% t answer %}</h4>
           <div class="answer-box"></div>
-          <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+          <button type="submit" class="btn btn-primary btn-lg">{% t send %}</button>
+          <a class="btn btn-block btn-outline btn-sm margin-top-medium" href="{{ site.baseurl_root }}">{% t restart %}</a>
         </form>
         <div class="d-flex flex-column flex-md-row lead mb-3 margin-top-big">
-          <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-bd-primary mb-3 mb-md-0 mr-md-3">Sobre Lucifer</a>
+          <a data-toggle="modal" data-target="#myModal" href="#myModal" class="btn btn-bd-primary mb-3 mb-md-0 mr-md-3">{% t about %}</a>
         </div>
         <p class="text-muted mb-0">
           Currently v{{ site.current_version }}
@@ -32,13 +43,13 @@ layout: home
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Sobre Lucifer</h4>
+              <h4 class="modal-title">{% t about %}</h4>
             </div>
             <div class="modal-body">
-              <p>Lucifer é um algoritmo de autor desconhecido, na época do MS-DOS e seu algoritmo mesmo antigo permite ser possível responder todas as perguntas.</p>
+              <p>{% t credits %}</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">fechar</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">{% t close %}</button>
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

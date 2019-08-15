@@ -8,12 +8,18 @@ kramdown:
 # Permalinks
 permalink:      pretty
 
+# Extras
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en-US", "pt-BR"]
+
 # Server
 source:         "."
 destination:    ./docs
 host:           0.0.0.0
 port:           9001
-baseurl:        "/lucifer-msdos/"
+baseurl:        ""
 url:            "https://alexanmtz.github.io/lucifer-msdos/"
 repo:           "https://github.com/alexanmtz/lucifer-msdos"
 encoding:       UTF-8

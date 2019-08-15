@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
 
-group :development, :test do
-  gem 'jekyll', '~> 3.7.0'
-end
+gem 'github-pages' , group: :jekyll_plugins
+gem 'jekyll-multiple-languages-plugin', group: :jekyll_plugins
