@@ -1,0 +1,13 @@
+heading: "FAÇA SUA PERGUNTA E TECLE ENTER"
+placeholder: "Faça sua pergunta"
+question: "Faça sua pergunta:"
+answer: "Resposta:"
+tip: "Você precisa tratá-lo bem, caso contrário ele não irá lhe responder (Ex. Meu querido computador)"
+send: "Enviar"
+about: "Sobre Lucifer"
+credits: "Lucifer é um algoritmo de autor desconhecido, na época do MS-DOS e seu algoritmo mesmo antigo permite ser possível responder todas as perguntas."
+close: "Fechar"
+theme: Tema do bootstrap do ms-dos
+developed: Desenvolvido por
+reason: baseado no algoritmo de um autor desconhecido
+restart: Faxzer uma nova pergunta

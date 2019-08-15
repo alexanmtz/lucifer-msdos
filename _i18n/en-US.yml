@@ -1,0 +1,13 @@
+heading: "MAKE YOUR QUESTION AND PRESS ENTER"
+placeholder: "Do your question"
+question: "Do your question:"
+answer: "Answer:"
+tip: "You need to be kind, otherwise you will not get your answer (Ex. Dear computar, dear Lucifer)"
+send: "Send"
+about: "About Lucifer"
+credits: "Lucifer is an algorithm from an unknown author, from the MS-DOS era and this old algorithm is able to answer any question."
+close: "Fechar"
+theme: ms-dos bootstrap theme
+developed: Developed by
+reason: based on an algorithm from an unknown author
+restart: Make a new question

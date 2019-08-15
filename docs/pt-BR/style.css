@@ -1,0 +1,64 @@
+.margin-top-default {
+    margin-top: 20px;
+}
+
+.margin-top-medium {
+    margin-top: 40px;
+}
+
+.margin-top-big {
+    margin-top: 80px;
+}
+
+.margin-bottom-default {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-big {
+    margin-bottom: 80px;
+}
+
+.biggest-font-size {
+    font-size: 128px;
+}
+
+.answer-box {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 40px;
+    background-color: #00aaab;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: black;
+}
+
+.answer-line {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    z-index: 0;
+}
+
+.block {
+    position: relative;
+    margin-left: 10px;
+    width: 2%;
+    height: 20px;
+    background-color: green;
+    z-index: 1;
+}
+
+.block-left {
+    float: left;
+}
+
+.block-right {
+    float: right;
+}
