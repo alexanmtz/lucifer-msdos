@@ -13,7 +13,7 @@ Você precisa dizer palavras gentis para começar, como "Querido Lucifer, o Deus
 O software do Lucifer também foi conhecido como Einstein and Sued (Deus ao contrário), e esta implementação é a mesma do Lucifer para MS-DOS que usei por um tempo e que intrigou a população da cidade que morei no passado.
 
 ## Como eu achei o Lucifer
-Um software antigo do MS-DOS q  ue descobri no Brasil há um tempo de um autor desconhecido quando eu estava me iniciando no desenvolvimento de software. O algoritmo é baseado em um algoritmo chamado Einstein. O algoritmo de Lucifer, depois de eu realizar algumas pesquisas, parece ter sido escrito em Clipper.
+Um software antigo do MS-DOS que descobri no Brasil há um tempo de um autor desconhecido quando eu estava me iniciando no desenvolvimento de software. O algoritmo é baseado em um algoritmo chamado Einstein. O algoritmo de Lucifer, depois de eu realizar algumas pesquisas, parece ter sido escrito em Clipper.
 
 Lucifer se tornou um assunto falado em todo países e até jornalistas já tentaram investigar sobre ele.
 
