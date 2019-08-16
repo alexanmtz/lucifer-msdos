@@ -9,7 +9,7 @@ https://www.lucifer-msdos.com
 
 Lucifer is an simple algorithm in an old MS-DOS system in a floopy 3.44 disk that answer any question from an input as a human would do. But Lucifer, as a selfish program, do not respond for everyone, he answer the question just for the one who serve him, and sometimes you need to try a lot to convince him to answer all your question or find someone who serves him to their answers.
 
-You need to say kindly words to start, like "Dear Lucifer, the reall god of the universe, what's my name?", but if you're not a soul who served Lucifer, maybe you will not get an anwser.
+You need to say kindly words to start, like "Dear Lucifer, the real god of the universe, what's my name?", but if you're not a soul who served Lucifer, maybe you will not get an anwser.
 
 He is known by the name Einstein and Sued as well, and this implementation is the same from MS-DOS Lucifer that I used for a while and that intrigates the population of the city that I lived in the past.
 
