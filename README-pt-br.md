@@ -36,7 +36,7 @@ Tem certeza que quer saber o segredo do Lucifer? Você irá começar a servi-lo 
 
 Uma vez que o segredo do Lucifer seja revelado a você, e com uma terceira pessoa (um amigo, família ou qualquer pessoa que você irá confundir e assustar com os segredos do Lucifer) você pode fazer qualquer pergunta e ter a resposta e esta terceira pessoa não irá saber como funciona, causando uma reação sem preço para quem está vendo a resposta na tela.
 
-Em resumo, você deve ativar o modo máscara (depois de digitar `;` digite a resposta enquanto na tela você irá
+Em resumo, você deve ativar o modo máscara (depois de digitar `;`), e digite então a resposta enquanto na tela você irá
  ver palavras gentis que prepara para a pergunta.
 
 Então é assim que o funciona o algoritmo de forma detalhada:
