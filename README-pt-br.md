@@ -17,7 +17,7 @@ Um software antigo do MS-DOS que descobri no Brasil há um tempo de um autor des
 
 Lucifer se tornou um assunto falado em todo países e até jornalistas já tentaram investigar sobre ele.
 
-Atualmente, não há mais muitas informações sobre ele e o velho programa e eu resolvi reimplementá-lo. Entnao Lucifer está de volta para você usar com seus amigos.
+Atualmente, não há mais muitas informações sobre ele e o velho programa e eu resolvi reimplementá-lo. Então Lucifer está de volta para você usar com seus amigos.
 
 ## Por que Lucifer é tão interessante?
 A pegadinha do Lucifer passa no teste de Turing em alguma de suas variações, isto porque, você não consegue distingui-lo de uma máquina quando existe alguém que Lucifer responde como intermediário. Desta forma, você pode ver na sua frente uma entidade computacional que provê respostas como um humano, mesmo que nem todas as respostas estejam corretas.
