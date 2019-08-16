@@ -23,7 +23,7 @@ Today, there's no resources about it anymore and this was a tricky and interesti
 ## Why is so interesting
 The Lucifer trick pass the touring test in one of their variations, this because, you can't distinguish him from a machine when there's someone that Lucifer will answer to intermediate. So you can see by yourself in a front of a computer an entity that can answer anything as human, even if the response is not right.
 
-This is how would be variation test:
+This is how would be the test:
 
 * Given an user A, the responsible to make questions, who Lucifer will answer any question given
 * The watcher B, the one who will see the questions and the answer on the screen, but when he try to use the software, Lucifer do not answer to their questions, instead he act agressively
