@@ -7,7 +7,7 @@ https://www.lucifer-msdos.com
 
 ![One example of the right answer](lucifer-right-answer.gif)
 
-Lucifer is an simple algorithm in an old MS-DOS system in a floopy 3.44 disk that answer any question from an input as a human would do. But Lucifer, as a selfish program, do not respond for everyone, he answer the question just for the one who serve him, and sometimes you need to try a lot to convince him to answer all your question or find someone like who serves him to their answers.
+Lucifer is an simple algorithm in an old MS-DOS system in a floopy 3.44 disk that answer any question from an input as a human would do. But Lucifer, as a selfish program, do not respond for everyone, he answer the question just for the one who serve him, and sometimes you need to try a lot to convince him to answer all your question or find someone who serves him to their answers.
 
 You need to say kindly words to start, like "Dear Lucifer, the reall god of the universe, what's my name?", but if you're not a soul who served Lucifer, maybe you will not get an anwser.
 
