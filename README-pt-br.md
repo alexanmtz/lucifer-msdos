@@ -47,7 +47,7 @@ Então é assim que o funciona o algoritmo de forma detalhada:
 
 * Você deve digitar a resposta enquanto estiver neste modo máscara e o usuário que acompanha irá ver algumas palavras gentis se formando na tela para prepará-lo para a pergunta.
 
-* Quando você estiver finalizado a resposta, você deve pressionar enter e continuar a digitar o fim das palavras gentis e / ou completar a sentençã para fazer a pergunta de fato
+* Quando você estiver finalizado a resposta, você deve pressionar enter e continuar a digitar o fim das palavras gentis e / ou completar a sentença para fazer a pergunta de fato
 
 * Depois de digitar enter você terá a resposta
 
