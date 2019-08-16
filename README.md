@@ -38,7 +38,7 @@ Are you sure that you want to know the Lucifer secret? You will start to serve h
 
 Once you know the Lucifer secret, and with a third person (a friend, a family or the one who you will trick and scare with the Lucifer powers) you can make any questions and have the proper answer and this third person will not know how it works, causing a non-price reaction from the people who follows the screen.
 
-In short, You should in the mask mode (after type `;` type the answer while on the screen you and the watching user will see some gentle words to prepare to do the question.
+In short, You should enter in the mask mode (after type `;`), and type the answer while on the screen you and the watching user will see some gentle words to prepare to do the question.
 
 This is how the algorithm works step by step:
 
