@@ -1,4 +1,9 @@
 # LUCIFER
+
+![Um exemplo do lucifer quando ele não te responde](lucifer-no-answer.gif)
+
+![Um exemplo do Lucifer quando ele te responde](lucifer-answer.gif)
+
 Lucifer é um algoritmo simples feito em um sistema antigo que rodava no MS-DOS em um disquete de 3.44 que é capaz de responder qualquer pergunta a partir de uma entrada com um saída sendo uma resposta que qualquer humano daria. Mas Lucifer, como sendo um programa egoísta, não responde para todos, ele na verdade responde as perguntas só para aqueles que o servem, e você as vezes precisa tentar muito para convencê-lo a responder todas suas questões ou você precisa achar alguém que o sirva para obter suas respostas.
 
 Você precisa dizer palavras gentis para começar, como "Querido Lucifer, o Deus real do universo, qual é o meu nome?", mas se você não é uma alma que serve a Lucifer, talvez ele não irá lhe responder apropriadamente.
