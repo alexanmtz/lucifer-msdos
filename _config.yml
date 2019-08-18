@@ -34,4 +34,4 @@ exclude:
 title:              Lucifer
 description:        "An algorithm from hell"
 authors:            "Alexandre Magno and an Unknown author"
-current_version:            "0.1"
+current_version:            "0.2.6"
