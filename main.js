@@ -78,7 +78,7 @@ function maskOn() {
             $('#inputQuestion').off('keydown.mask');   
             return false;
         } else {
-            if((event.keyCode === 32) || (event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 65 && event.keyCode <= 90)) {
+            if((event.keyCode === 32) || (event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 65 && event.keyCode <= 90) || (event.keyCode >= 188 && event.keyCode <= 222)) {
                 originalAnswer += String.fromCharCode(event.keyCode)
                 var value = $('#inputQuestion').val();
                 $('#inputQuestion').val(value + item.charAt(value.length))
