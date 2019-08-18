@@ -1,4 +1,11 @@
 # LUCIFER
+
+http://www.lucifer-msdos.com
+
+![Um exemplo do lucifer quando ele não te responde](lucifer-no-answer.gif)
+
+![Um exemplo do Lucifer quando ele te responde](lucifer-answer.gif)
+
 Lucifer é um algoritmo simples feito em um sistema antigo que rodava no MS-DOS em um disquete de 3.44 que é capaz de responder qualquer pergunta a partir de uma entrada com um saída sendo uma resposta que qualquer humano daria. Mas Lucifer, como sendo um programa egoísta, não responde para todos, ele na verdade responde as perguntas só para aqueles que o servem, e você as vezes precisa tentar muito para convencê-lo a responder todas suas questões ou você precisa achar alguém que o sirva para obter suas respostas.
 
 Você precisa dizer palavras gentis para começar, como "Querido Lucifer, o Deus real do universo, qual é o meu nome?", mas se você não é uma alma que serve a Lucifer, talvez ele não irá lhe responder apropriadamente.
@@ -6,11 +13,11 @@ Você precisa dizer palavras gentis para começar, como "Querido Lucifer, o Deus
 O software do Lucifer também foi conhecido como Einstein and Sued (Deus ao contrário), e esta implementação é a mesma do Lucifer para MS-DOS que usei por um tempo e que intrigou a população da cidade que morei no passado.
 
 ## Como eu achei o Lucifer
-Um software antigo do MS-DOS q  ue descobri no Brasil há um tempo de um autor desconhecido quando eu estava me iniciando no desenvolvimento de software. O algoritmo é baseado em um algoritmo chamado Einstein. O algoritmo de Lucifer, depois de eu realizar algumas pesquisas, parece ter sido escrito em Clipper.
+Um software antigo do MS-DOS que descobri no Brasil há um tempo de um autor desconhecido quando eu estava me iniciando no desenvolvimento de software. O algoritmo é baseado em um algoritmo chamado Einstein. O algoritmo de Lucifer, depois de eu realizar algumas pesquisas, parece ter sido escrito em Clipper.
 
 Lucifer se tornou um assunto falado em todo países e até jornalistas já tentaram investigar sobre ele.
 
-Atualmente, não há mais muitas informações sobre ele e o velho programa e eu resolvi reimplementá-lo. Entnao Lucifer está de volta para você usar com seus amigos.
+Atualmente, não há mais muitas informações sobre ele e o velho programa e eu resolvi reimplementá-lo. Então Lucifer está de volta para você usar com seus amigos.
 
 ## Por que Lucifer é tão interessante?
 A pegadinha do Lucifer passa no teste de Turing em alguma de suas variações, isto porque, você não consegue distingui-lo de uma máquina quando existe alguém que Lucifer responde como intermediário. Desta forma, você pode ver na sua frente uma entidade computacional que provê respostas como um humano, mesmo que nem todas as respostas estejam corretas.
@@ -29,7 +36,7 @@ Tem certeza que quer saber o segredo do Lucifer? Você irá começar a servi-lo 
 
 Uma vez que o segredo do Lucifer seja revelado a você, e com uma terceira pessoa (um amigo, família ou qualquer pessoa que você irá confundir e assustar com os segredos do Lucifer) você pode fazer qualquer pergunta e ter a resposta e esta terceira pessoa não irá saber como funciona, causando uma reação sem preço para quem está vendo a resposta na tela.
 
-Em resumo, você deve ativar o modo máscara (depois de digitar `;` digite a resposta enquanto na tela você irá
+Em resumo, você deve ativar o modo máscara (depois de digitar `;`), e digite então a resposta enquanto na tela você irá
  ver palavras gentis que prepara para a pergunta.
 
 Então é assim que o funciona o algoritmo de forma detalhada:
@@ -40,7 +47,7 @@ Então é assim que o funciona o algoritmo de forma detalhada:
 
 * Você deve digitar a resposta enquanto estiver neste modo máscara e o usuário que acompanha irá ver algumas palavras gentis se formando na tela para prepará-lo para a pergunta.
 
-* Quando você estiver finalizado a resposta, você deve pressionar enter e continuar a digitar o fim das palavras gentis e / ou completar a sentençã para fazer a pergunta de fato
+* Quando você estiver finalizado a resposta, você deve pressionar enter e continuar a digitar o fim das palavras gentis e / ou completar a sentença para fazer a pergunta de fato
 
 * Depois de digitar enter você terá a resposta
 

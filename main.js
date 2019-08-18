@@ -54,7 +54,7 @@ function printAnswer() {
     var item = answers[getUserLang()][Math.floor(Math.random()*answers[getUserLang()].length)];
 
     $('.answer-line').empty();
-    $('<div class="answer-line" />').html(originalAnswer.length ? originalAnswer.substring(1) : item).appendTo('.answer-box');
+    $('<div class="answer-line" />').html(originalAnswer.length ? originalAnswer : item).appendTo('.answer-box');
 
 }
 
@@ -73,15 +73,15 @@ function maskOn() {
     ];
     var item = questions[getUserLang()][Math.floor(Math.random()*questions[getUserLang()].length)];
 
-    $('#inputQuestion').on('keydown',function(event) {
-        originalAnswer += String.fromCharCode(event.keyCode)
+    $('#inputQuestion').on('keydown.mask',function(event) {
         if(event.keyCode === 13) {
-            $('#inputQuestion').off('keydown');   
+            $('#inputQuestion').off('keydown.mask');   
             return false;
         } else {
-            if((event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 65 && event.keyCode <= 90)) {
+            if((event.keyCode === 32) || (event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 65 && event.keyCode <= 90)) {
+                originalAnswer += String.fromCharCode(event.keyCode)
                 var value = $('#inputQuestion').val();
-                $('#inputQuestion').val(value.substring(-1) + item.charAt(value.length))
+                $('#inputQuestion').val(value + item.charAt(value.length))
                 event.preventDefault();
             }
         }
