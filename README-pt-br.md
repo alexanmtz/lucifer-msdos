@@ -64,5 +64,11 @@ Então é assim que o funciona o algoritmo de forma detalhada:
 * A resposta vai aparecer magicamente
 * Voila, agora você é um servo do Lucifer
 
+### If my activation key (mask) `;` doesn't work?
+Check here https://keycode.info/ where in your keyboard is the keycode 186, the code that activate the mask
+
+### Se o botão de ativação (máscara) `;` não funcionar
+Verifique aqui https://keycode.info/ onde no seu teclado é o keycode 186, que é o código que ativa as máscara
+
 ## Código de conduta
 Se a pessoa que assistir a sessão ficar com medo das respostas, não tem problema contar que é um algoritmo peculiar. Não há religião envolvida e o nome é apenas uma piada.
