@@ -65,5 +65,8 @@ This is how the algorithm works step by step:
 * The right answer will appear magically
 * Voila, now you're a Lucifer servant
 
+### If my activation key (mask) `;` doesn't work?
+Check here https://keycode.info/ where in your keyboard is the keycode 186, the code that activate the mask
+
 ## Code of conduct
 If the people that watch a session becomes scary by the answers, no problem to tell that is just a tricky algorithm. There's no religion involved and the name is just a joke.
